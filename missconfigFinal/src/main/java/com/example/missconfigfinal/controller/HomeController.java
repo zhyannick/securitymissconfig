@@ -37,8 +37,8 @@ public class HomeController {
         return "redirect:/login";
     }
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home() {
-        return "index";
+        return "home";
     }
 }
